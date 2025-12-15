@@ -1,0 +1,36 @@
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #218838;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.type-badge.insert {
+  background: #d4edda;
+  color: #155724;
+}
+
+.type-badge.delete {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.match-badge.full-match {
+  background: #28a745;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+

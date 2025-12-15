@@ -1,0 +1,81 @@
+.transaction-table-page {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h2 {
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.type-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.type-badge.insert {
+  background: #d4edda;
+  color: #155724;
+}
+
+.type-badge.delete {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.match-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.match-badge.full-match {
+  background: #28a745;
+  color: white;
+}
+
+.no-match {
+  color: #999;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  background: #f5f5f5;
+  font-size: 0.875rem;
+}
+
+.transaction-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.transaction-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.transaction-table tbody tr:last-child td {
+  border-bottom: none;
+}
+

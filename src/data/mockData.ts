@@ -22,7 +22,7 @@ export const mockCustomers: Customer[] = [
     name: 'Петров Петр Петрович',
     searchName: 'ПЕТРОВ ПЕТР ПЕТРОВИЧ',
     customerName: 'Петров П.П.',
-    customerId: 'CUST-002',
+    _customerId: 'CUST-002',
     customerNumber: '0987654321',
     createdDate: '2024-01-10',
     createdUser: 'user2',
@@ -88,7 +88,7 @@ export const getConsistencyMatches = (customerId: string): any[] => {
   ]
 }
 
-export const getHistory = (customerId: string): any[] => {
+export const getHistory = (_customerId: string): any[] => {
   return [
     {
       date: '2024-01-15 10:30:00',
